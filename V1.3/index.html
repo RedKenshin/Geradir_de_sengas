@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Gerador de senhas</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Gerador e armazenamento de senhas</h1>
+    <form>
+      <label for="password-length">Comprimento da senha:</label>
+      <input type="number" id="password-length" name="password-length" min="8" max="64" required>
+      <label for="uppercase-letters">Incluir letras maiúsculas:</label>
+      <input type="checkbox" id="uppercase-letters" name="uppercase-letters">
+      <label for="lowercase-letters">Incluir letras minúsculas:</label>
+      <input type="checkbox" id="lowercase-letters" name="lowercase-letters">
+      <label for="numbers">Incluir números:</label>
+      <input type="checkbox" id="numbers" name="numbers">
+      <label for="symbols">Incluir símbolos:</label>
+      <input type="checkbox" id="symbols" name="symbols">
+      <button type="button" onclick="generatePassword()">Gerar senha</button>
+      <button type="button" id="copy-to-clipboard" onclick="copyToClipboard()" disabled>Copiar para a área de transferência</button>
+      <div id="generated-password"></div>
+      <button type="button" id="save-password" onclick="savePassword()">Salvar senha</button>
+      <button type="button" id="view-passwords" onclick="viewPasswords()">Ver senhas salvas</button>
+      <ul id="password-list"></ul>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
