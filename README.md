@@ -3,13 +3,14 @@ Este é um aplicativo web que gera senhas aleatórias com base nas opções sele
 
 Funcionalidades
 O aplicativo possui as seguintes funcionalidades:
--Gerar Senha: Ao clicar no botão "Gerar senha", uma senha aleatória será gerada com base nas opções selecionadas pelo usuário, como o comprimento da senha e quais caracteres devem ser incluídos (letras maiúsculas, minúsculas, números e símbolos).
+-Gerar Senha: Ao clicar no botão "Gerar senha", uma senha aleatória será gerada com base nas opções selecionadas pelo usuário, como o comprimento da senha e quais caracteres devem ser incluídos (letras maiúsculas, minúsculas, números e símbolos), ele também verifica se a senha que foi gerado foi uma senha fraca vou forte de acordo com os caracteres que foram gerados na senha.
 
 Copiar para a Área de Transferência: Após gerar uma senha, o usuário pode clicar no botão "Copiar para a área de transferência" para copiar a senha gerada e colá-la em outros locais, como campos de login.
 
 Armazenar Senha: O usuário pode salvar a senha gerada localmente clicando no botão "Armazenar senha". A senha será adicionada a uma lista de senhas armazenadas.
 
 Apagar Senhas Armazenadas: O usuário pode clicar no botão "Apagar senhas armazenadas" para remover todas as senhas da lista de senhas armazenadas.
+
 
 Uso
 1. Abra o arquivo `index.html` em um navegador da web.
